@@ -1,0 +1,119 @@
+h3{
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 100 !important;
+
+}
+.rel{
+    position: relative;
+}
+h4{
+    margin: 0;
+    font-weight: 100 !important;
+    margin-bottom: 5px;
+}
+.id_div{
+    display: block;
+    width: 80%;
+    margin: 20px 10% 20px 10%;
+    border-radius: 5px;
+}
+.border{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 10px;
+}
+.borderseg{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+.yellow{
+    background-color: #FFB019;
+}
+.orange{
+    background-color: #FC8B24;
+}
+.brown{
+    background-color: #F87B19;
+}
+.red{
+    background-color: rgb(252, 88, 88);
+}
+.false{
+    height: 80px;
+    background-color:rgb(252, 88, 88) ;
+    padding-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.photo{
+    width: 30%;
+    padding-top: 30%;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 35% 10px 35%;
+}
+.space{
+    width: 100%;
+    height: 20px;
+}
+.borderseg2{
+    width: 5%;
+    margin: 0;
+    padding: 0;
+}
+.details{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.detailsBox{
+    width: 90%;
+    padding: 5px;
+}
+.editSection{
+    margin: 2px;
+    padding : 2px;
+}
+.editSection input{
+    margin: 2px;
+    border: 1px solid rgb(252, 88, 88);
+    padding : 2px;
+    border-radius: 2px;
+}
+.editSection button{
+    margin: 2px;
+    border: 1px solid rgb(252, 88, 88);
+    padding : 3px;
+    border-radius: 2px;
+    background-color: white;
+}
+.false h3{
+    width: 80% !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    margin: auto;
+}
+
+.but{
+    width: 10%;
+    margin: 10px 45% 10px 45%;
+    border: 1px solid rgb(252, 88, 88);
+    padding : 3px;
+    border-radius: 2px;
+    background-color: white;
+    height: 20px;
+}
+@media only screen and (max-width: 1270px) {
+    /* For mobile phones: */
+    .but{
+        width: 30%;
+        margin: 10px 35% 10px 35%;
+    }
+}

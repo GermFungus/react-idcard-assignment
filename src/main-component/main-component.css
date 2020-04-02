@@ -1,0 +1,94 @@
+ul{
+    margin: 0 !important;
+}
+.pagination{
+    display: flex;
+    margin: 20px 20% 20px 20%;
+    justify-content: space-between;
+}
+.PagButton{
+    border: 1px solid rgb(252, 88, 88);
+    border-radius: 3px;
+    padding: 1px;
+    width: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.selected{
+    background-color: #FFB019;
+    color: white;
+}
+
+.headerDiv{
+    width: 100%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-image: url('../Images/1679318_17ed_2.jpg');
+    font-weight: 100;
+    font-family: sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0 , 0 100% , 100% 85% , 100% 0);
+}
+.bar{
+    display: flex;
+    background-color: grey;
+    color: white;
+    padding-left: 20px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.renderDiv{
+    display: flex;
+    width: 100%;
+    padding : 10px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.sub{
+    width: 50%;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.sub h3{
+    width: 25%;
+    border-bottom: 4px solid skyblue;
+    border-right: 4px solid skyblue;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    html{
+       font-size: 12px;  
+    }
+    .pagination{
+        display: flex;
+    }
+    .PagButton{
+        width: 20%;
+    }
+    .renderDiv{
+        display: block;
+        padding: 2px;
+    }
+    .sub{
+        width: 100%;
+        margin: 0;
+    }
+    .sub h3{
+        width: 75%;
+    }
+}
